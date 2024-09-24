@@ -44,6 +44,20 @@ button:hover {
     border: 2px solid #ccc;
 }
 
+@-webkit-keyframes alarm {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: red;
+    }
+    
+}
+
 @keyframes alarm {
     0% {
         background-color: red;
